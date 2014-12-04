@@ -21,4 +21,14 @@ alert("Welcome "+name+"! Let's figure out how old you are.");
 var yearBorn = prompt("What year were you born");
 
 //Console.log to check what they type
-console.log(yearBorn);S
+console.log(yearBorn);
+
+//Calculate their age
+
+//We need the current year
+var currentYear = 2014;
+
+var age = currentYear-yearBorn;
+
+//Alert the user with their current age
+alert(name+" you are "+age+" years old.");
