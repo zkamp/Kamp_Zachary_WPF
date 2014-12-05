@@ -28,3 +28,5 @@ console.log(peopleTootsDaily);
 //calculate
 var dogTootsDaily = dogsInHouse * 10;
 
+//log dog toots
+console.log(peopleTootsDaily);
