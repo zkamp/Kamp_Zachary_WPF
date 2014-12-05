@@ -22,3 +22,6 @@ console.log(dogsInHouse);
 //calculate
 var peopleTootsDaily = peopleInHouse * 14;
 
+//log people toots
+console.log(peopleTootsDaily);
+
