@@ -40,5 +40,8 @@ var daysMonth = prompt("How many days in current month?");
 //Multiply dailyOutput by days in month
 var monthlyOutput = dailyOutput * daysMonth;
 
+//Answer
+alert("Number of farts in your house this month " + monthlyOutput);
+
 
 
