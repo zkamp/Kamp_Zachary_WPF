@@ -6,11 +6,11 @@
  */
 //alert("This is Industry!");
 
-//How many websites can be built in a year
-//How long for one site
-var siteTime = prompt("How many days (on average) does it take you to build a website?");
+//Slide show duration
+var timeSlide = prompt("How many minutes do you want your slideshow to last?");
 
-//log days in the console
-console.log(siteTime);
+//Log show duration
+console.log(timeSlide);
+
 
 
