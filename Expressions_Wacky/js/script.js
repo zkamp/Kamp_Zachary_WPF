@@ -8,13 +8,13 @@
 //alert("This is Wacky!");
 
 //people in house
-var peopleInHouse = ("How many people live in your house?");
+var peopleInHouse = prompt("How many people live in your house?");
 
 //log number
 console.log(peopleInHouse);
 
 //dogs in house
-var dogsInHouse = ("How many dogs?");
+var dogsInHouse = prompt("How many dogs?");
 
 //log number of dogs
 console.log(dogsInHouse);
@@ -33,3 +33,9 @@ console.log(peopleTootsDaily);
 
 //add products
 var dailyOutput = peopleTootsDaily + dogTootsDaily;
+
+//days in the month
+var dogsInHouse = prompt("How many days in current month?");
+
+
+
