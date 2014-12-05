@@ -12,3 +12,6 @@ var peopleInHouse = ("How many people live in your house?");
 
 //log number
 console.log(peopleInHouse);
+
+//dogs in house
+var dogsInHouse = ("How many dogs?");
