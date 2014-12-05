@@ -25,5 +25,8 @@ var milesGallon = prompt("What is your vehicle's fuel economy (MPG)?")
 console.log(milesGallon);
 
 //Divide distance by MPG
-var gasTotal = alert distance / milesGallon
+var gasTotal = distance / milesGallon;
 
+//Multiply gasTotal by gasPrice
+var tripCost;
+tripCost = alert(gasTotal * gasPrice);
