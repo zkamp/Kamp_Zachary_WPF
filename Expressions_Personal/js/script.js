@@ -13,3 +13,5 @@
 var distance = prompt("How many miles do you plan on traveling?");
 //log miles in the console
 console.log(distance);
+//interact with the user
+var gasPrice= prompt("Yikes! "+distance+" miles? That's a hike! \nWhat's the current average gas price?");
