@@ -33,3 +33,6 @@ var tripCost = (gasTotal * gasPrice);
 //answer
 alert("$" + tripCost + " to travel " + distance);
 
+//log tripCost
+console.log(tripCost);
+
