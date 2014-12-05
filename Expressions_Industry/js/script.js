@@ -15,3 +15,5 @@ console.log(timeSlide);
 //number of images
 var imageCount = prompt('How many images do you want to use');
 
+//Log image count
+console.log(imageCount);
