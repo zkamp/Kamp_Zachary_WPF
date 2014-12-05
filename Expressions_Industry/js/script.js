@@ -5,3 +5,7 @@
  12-4-2014
  */
 //alert("This is Industry!");
+
+//How many websites can be built in a year
+//How long for one site
+var siteTime = prompt("How many days (on average) does it take you to build a website?");
