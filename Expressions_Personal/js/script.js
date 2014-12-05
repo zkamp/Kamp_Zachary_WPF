@@ -28,7 +28,8 @@ console.log(milesGallon);
 var gasTotal = distance / milesGallon;
 
 //Multiply gasTotal by gasPrice
-var tripCost;
-tripCost = (gasTotal * gasPrice);
-alert(tripCost);
+var tripCost = (gasTotal * gasPrice);
+
+//answer
+alert("$" + tripCost + " to travel " + distance);
 
