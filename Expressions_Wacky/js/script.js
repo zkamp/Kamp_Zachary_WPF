@@ -15,3 +15,10 @@ console.log(peopleInHouse);
 
 //dogs in house
 var dogsInHouse = ("How many dogs?");
+
+//log number of dogs
+console.log(dogsInHouse);
+
+//calculate
+var peopleTootsDaily = peopleInHouse * 14;
+
