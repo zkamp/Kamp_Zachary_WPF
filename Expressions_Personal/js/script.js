@@ -5,4 +5,9 @@
  12-4-2014
  */
 
-alert("This is Personal");
+//alert("This is Personal");
+
+//create a gas price calculator
+
+//ask the distance needed to travel
+var distance = prompt("How many miles do you plan on traveling?");
