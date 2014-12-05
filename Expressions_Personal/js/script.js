@@ -20,3 +20,8 @@ var gasPrice = prompt("Yikes! "+distance+" miles? That's a hike! \nWhat's the cu
 
 //MPG
 var milesGallon = prompt("What is your vehicle's fuel economy (MPG)?")
+
+//Console.log to check what they type
+console.log(milesGallon);
+
+//Make calculations
