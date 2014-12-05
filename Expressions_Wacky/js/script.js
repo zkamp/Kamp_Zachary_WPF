@@ -30,3 +30,6 @@ var dogTootsDaily = dogsInHouse * 10;
 
 //log dog toots
 console.log(peopleTootsDaily);
+
+//add products
+var dailyOutput = peopleTootsDaily + dogTootsDaily;
