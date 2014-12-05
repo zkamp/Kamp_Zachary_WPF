@@ -35,7 +35,10 @@ console.log(peopleTootsDaily);
 var dailyOutput = peopleTootsDaily + dogTootsDaily;
 
 //days in the month
-var dogsInHouse = prompt("How many days in current month?");
+var daysMonth = prompt("How many days in current month?");
+
+//Multiply dailyOutput by days in month
+var monthlyOutput = dailyOutput * daysMonth;
 
 
 
