@@ -6,17 +6,20 @@
  */
 //alert ("Teste!");
 
-//determine whether user is moving or not.
+//ask the user outside temp
 var temp = prompt("What is the outside temperature?");
+//this should log their answer and compare it to the condition??? Not working for me for some reason.
+console.log(temp);
+
 var coffeeBudget = prompt ("How much money is in your pocket?")
-var warmCoffee = alert ("You should get a warm coffee!");
-var icedCoffee = alert ("You should get an iced coffee!");
+console.log(coffeeBudget);
+
 
 if(temp <= 65 && coffeeBudget >= 5){
-    warmCoffee;
+    alert ("You should get a warm coffee!");
     console.log("You should get a warm coffee!")
 }else{
-    icedCoffee
+    alert ("You should get an iced coffee!");
     console.log("You should get a iced coffee!")
 }
 
