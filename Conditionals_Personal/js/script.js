@@ -14,8 +14,9 @@ var icedCoffee = alert ("You should get an iced coffee!");
 
 if(temp <= 65 && coffeeBudget >= 5){
     warmCoffee;
+    console.log("You should get a warm coffee!")
+}else{
+    icedCoffee
+    console.log("You should get a iced coffee!")
 }
 
-if(temp > 65 && coffeeBudget >= 5){
-    icedCoffee;
-}
