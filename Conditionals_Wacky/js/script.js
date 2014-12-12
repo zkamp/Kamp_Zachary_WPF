@@ -17,7 +17,7 @@ var theFuzz = prompt("Number of police officers nearby?");
 //begin conditional statement
 if(temp >= 70){
     if(noOfPeople <= 3) {
-        if (theFuzz == 0) {
+        if(theFuzz == 0) {
             alert("Let's go skinny dippin'!");
 
         }
@@ -25,6 +25,16 @@ if(temp >= 70){
     if(temp < 70){
         alert("Brrrr! That's too cold!");
     }
-    if(noOfPeople > 3)
+    if(noOfPeople > 3){
+        alert("Never mind. A smaller number would be less embarassing.");
+    }
+    if(theFuzz >= 1){
+        alert("Maybe some other time. I don't feel like going to jail tonight.");
+    }
 }
+
+
+
+
+
 
