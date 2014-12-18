@@ -9,5 +9,7 @@
 //alert("Testing the connection");
 
 //centimeter to inches conversion
-
+//prompt user to give cm
 var cmCount = prompt("How many centimeters would you like to convert to inches?");
+//provides formula for inches
+var inches = 0.39370;
