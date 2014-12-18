@@ -13,5 +13,6 @@ var bikeType = prompt("Do you ride a road or mountain bike?\nType \"road\" or \"
 //Validate using a while loop
 //test to see if blank
 while(min===""){
-    
+    //reprompt the user
+    min = prompt("Please do not leave blank! \nPlease type \"road\" or \"mountain\":");
 }
