@@ -7,3 +7,5 @@
 
 //alert("Testing the connection");
 
+//Ask user for initial info
+var bikeType = prompt("Do you ride a road or mountain bike?\nType \"road\" or \"mountain\".")
