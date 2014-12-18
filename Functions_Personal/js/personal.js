@@ -13,12 +13,11 @@ while(bikeTour!="yes" && bikeTour!="Yes" && bikeTour!="no" && bikeTour!="No"){
     //reprompt the user
     //Y is not the same as y
     bikeTour = prompt("You must answer \"yes\" or \"no\". Do you want to go on a long distance bike trip?");
-
-    if(bikeTour==="no" || bikeTour==="No"){
-        console.log("Maybe next year then");
-    } 
 }
 
+if(bikeTour==="no" || bikeTour==="No"){
+    bikeTour = alert("Maybe next year then");
+}
 var bikeType = prompt("Do you ride a road or mountain bike?\nType \"road\" or \"mountain\":");
 
 //Validate using a while loop
