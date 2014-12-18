@@ -28,3 +28,28 @@ while(bikeType!="road" && bikeType!="Road" && bikeType!="mountain" && bikeType!=
     //Y is not the same as y
     bikeType= prompt("Please only type in \"road\" or \"mountain\"");
 }
+
+if(bikeType==="road" || bikeType==="Road"){
+
+    bikeType==="20"
+
+} else{
+
+    bikeType==="12"
+
+}
+
+
+var maxDistance = prompt("What is your goal for max distance (miles)?");
+while(maxDistance==="" || isNaN(maxDistance)){
+
+    if(maxDistance===""){
+        //reprompt the user
+        maxDistance = prompt("Please do not leave blank and type only numbers!");
+    }
+
+}
+
+var howLong = maxDistance / bikeType
+
+alert(howLong);
