@@ -8,7 +8,14 @@
 //alert("Testing the connection");
 
 //Ask user for initial info
-var bikeType = prompt("Do you ride a road or mountain bike?\nType \"road\" or \"mountain\":")
+var bikeTour = prompt("Do you want to go on a long distance bike trip?");
+while(bikeTour!="yes" && bikeTour!="Yes" && bikeTour!="no" && bikeTour!="No"){
+    //reprompt the user
+    //Y is not the same as y
+    bikeTour = prompt("Do you want to go on a long distance bike trip?");
+}
+
+var bikeType = prompt("Do you ride a road or mountain bike?\nType \"road\" or \"mountain\":");
 
 //Validate using a while loop
 //test to see if blank
