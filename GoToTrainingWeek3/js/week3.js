@@ -28,3 +28,18 @@ console.log(bowlOfFruit.length);
 //Last index number is always one less than the length.
 //bowlOfFruit.length - 1 is the last index #.
 
+//Create a variable to track the number of pears.
+var totalNumPears = 0;
+
+//Test each item and see if it is a "pear".
+
+//if(condition to test) { Code to run if true}
+if(bowlOfFruit[0]==="pear"){
+    //this will run if true
+    //add one to our counting variable
+    console.log("This fruit is a pear!");
+    totalNumPears++;
+} else {
+    //This will run if false
+    console.log("This fruit is not a pear!");
+}
