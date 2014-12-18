@@ -15,3 +15,5 @@ var cmCount = prompt("How many centimeters would you like to convert to inches?"
 var inches = 0.39370;
 //variable that calls function
 var convert = convertCmToInch(cmCount, inches);
+//log to console
+console.log(+ convert"inches");
