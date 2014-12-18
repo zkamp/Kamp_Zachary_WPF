@@ -12,7 +12,9 @@ var bikeType = prompt("Do you ride a road or mountain bike?\nType \"road\" or \"
 
 //Validate using a while loop
 //test to see if blank
-while(bikeType===""){
+//makes user type something specific
+while(bikeType!="road" && bikeType!="Road" && bikeType!="mountain" && bikeType!="Mountain"){
     //reprompt the user
-    bikeType = prompt("Please do not leave blank! \nPlease type \"road\" or \"mountain\":");
+    //Y is not the same as y
+    bikeType= prompt("Please only type in \"road\" or \"mountain\"");
 }
