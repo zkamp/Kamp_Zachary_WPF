@@ -12,7 +12,11 @@ var bikeTour = prompt("Do you want to go on a long distance bike trip?");
 while(bikeTour!="yes" && bikeTour!="Yes" && bikeTour!="no" && bikeTour!="No"){
     //reprompt the user
     //Y is not the same as y
-    bikeTour = prompt("Do you want to go on a long distance bike trip?");
+    bikeTour = prompt("You must answer \"yes\" or \"no\". Do you want to go on a long distance bike trip?");
+
+    if(bikeTour==="no" || bikeTour==="No"){
+        console.log("Maybe next year then");
+    } 
 }
 
 var bikeType = prompt("Do you ride a road or mountain bike?\nType \"road\" or \"mountain\":");
