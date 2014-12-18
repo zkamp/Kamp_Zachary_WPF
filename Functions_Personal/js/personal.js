@@ -31,11 +31,11 @@ while(bikeType!="road" && bikeType!="Road" && bikeType!="mountain" && bikeType!=
 
 if(bikeType==="road" || bikeType==="Road"){
 
-    bikeType==="20"
+    bikeType===20
 
 } else{
 
-    bikeType==="12"
+    bikeType===12
 
 }
 
