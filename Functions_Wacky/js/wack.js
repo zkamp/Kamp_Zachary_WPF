@@ -16,4 +16,10 @@ var inches = 0.39370;
 //variable that calls function
 var convert = convertCmToInch(cmCount, inches);
 //log to console
-console.log(+ convert"inches");
+console.log("Inches = " + convert);
+//function
+function convertCmToInch(cmCount, inches){
+ return cmCount * inches;
+}
+
+alert("Your answer is " + convert)
