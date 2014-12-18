@@ -29,15 +29,6 @@ while(bikeType!="road" && bikeType!="Road" && bikeType!="mountain" && bikeType!=
     bikeType= prompt("Please only type in \"road\" or \"mountain\"");
 }
 
-if(bikeType==="road" || bikeType==="Road"){
-
-    bikeType===20
-
-} else{
-
-    bikeType===12
-
-}
 
 
 var maxDistance = prompt("What is your goal for max distance (miles)?");
@@ -50,6 +41,20 @@ while(maxDistance==="" || isNaN(maxDistance)){
 
 }
 
-var howLong = maxDistance / bikeType
+function roadTime(){
+    var distance = maxDistance;
+    var speed = 20;
+    var time = maxDistance / 20;
+    console.log(time);
+}
 
-alert(howLong);
+roadTime();
+
+function mtnTime(){
+    var distance = maxDistance;
+    var speed = 12;
+    var time = maxDistance / 12;
+    console.log(time);
+}
+
+mtnTime();
