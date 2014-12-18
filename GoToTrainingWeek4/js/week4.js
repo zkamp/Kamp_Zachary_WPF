@@ -67,3 +67,44 @@ if(userGoodMood==="yes" || userGoodMood==="Yes"){
 } else{
     console.log("Sorry to hear that, maybe you should code more.");
 }
+
+//Ask the user for a max value
+var max = prompt("Please type in a maximum value:");
+
+//Validate the prompt
+while(max==="" || isNaN(max)){
+
+    max = prompt("Please do not leave blank and only use numbers.\nPlease type in a max value:");
+
+}
+
+//Parameters are used to catch the incoming arguments
+function randomizer(minNum,maxNum){
+
+    //console.log(min); - do not use variables from the main code in your functions
+
+    //In the function
+    console.log("inside the function");
+    //Use parameters instead of the main code variables
+
+    //Find a random number between 2 values
+    //Math.random() * ( max value - min value) + min value
+    var randomNumber = Math.round (Math.random() * (maxNum-minNum)+ Number (minNum)) ;
+    //console.log(randomNumber); - DO NOT USE CONSOLE.LOG INSIDE OF FUNCTION!!!
+
+    // Use a return value instead.
+    return randomNumber;
+}
+
+//We need a function call to "run" our function
+//arguments go in the function call
+//what information in our main code does our function need access to
+
+//We have to "catch" the returned value of our functional call
+var results = randomizer(min,max);
+
+//We use the results variable in our final consult.log
+console.log("The random number is "+results);
+
+
+console.log(randomizer(30,70)); //you can use other arguments
