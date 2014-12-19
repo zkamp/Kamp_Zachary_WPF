@@ -14,4 +14,6 @@ var time = prompt("How long does it take for you to complete one job (hours)");
 var inADay = 8;
 //variable that calls function
 var total = jobsInADay(time, inADay);
+//log to console
+console.log("Jobs = " + total);
 
