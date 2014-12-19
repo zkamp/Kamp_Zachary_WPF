@@ -16,4 +16,8 @@ var inADay = 8;
 var total = jobsInADay(time, inADay);
 //log to console
 console.log("Jobs = " + total);
+//function
+function jobsInADay(time, inADay){
+ return inADay / time;
+}
 
