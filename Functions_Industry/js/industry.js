@@ -20,4 +20,6 @@ console.log("Jobs = " + total);
 function jobsInADay(time, inADay){
  return inADay / time;
 }
+//alert user of answer
+alert("Jobs you can complete in a day = " + total);
 
