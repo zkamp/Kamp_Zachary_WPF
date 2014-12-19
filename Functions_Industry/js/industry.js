@@ -7,3 +7,5 @@
 
 //alert("Testing the connection");
 
+//how many jobs in a day
+
