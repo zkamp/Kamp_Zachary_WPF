@@ -10,4 +10,5 @@
 //how many jobs in a day
 //prompt user
 var time = prompt("How long does it take for you to complete one job (hours)");
-
+//provides hours in work day
+var inADay = 8;
