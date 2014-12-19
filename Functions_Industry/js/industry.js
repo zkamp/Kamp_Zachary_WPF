@@ -12,3 +12,6 @@
 var time = prompt("How long does it take for you to complete one job (hours)");
 //provides hours in work day
 var inADay = 8;
+//variable that calls function
+var total = jobsInADay(time, inADay);
+
